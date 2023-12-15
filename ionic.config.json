@@ -1,0 +1,7 @@
+{
+  "name": "a-day-wakers-ionic-widgets",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
