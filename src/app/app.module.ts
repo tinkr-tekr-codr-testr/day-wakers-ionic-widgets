@@ -6,9 +6,11 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { StimIconDirective } from './shared/stim-icon.directive';
+import { StimPayloadDirective } from './shared/directives/stim-payload.directive';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, StimIconDirective, StimPayloadDirective],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
